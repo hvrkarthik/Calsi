@@ -1,4 +1,4 @@
-# calsi
+# Calsi
 
 A simple calculator built with the React Native cli.
 

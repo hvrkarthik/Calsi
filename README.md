@@ -1,3 +1,6 @@
 # calsi
+
 A simple calculator built with the React Native cli.
-![Screenshot_20230125-100856](https://user-images.githubusercontent.com/79392613/214481614-fb555923-79bb-4b5b-bbbb-04fbc42940ef.png)
+
+Access below the APK link for this Android application to download and install it on your Android smartphone.
+https://drive.google.com/file/d/1SLOQs0fFLc61OSMhwEDBzrh54DlU8jqf/view?usp=drive_link

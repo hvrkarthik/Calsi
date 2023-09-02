@@ -1,30 +1,30 @@
-import React from "react";
+import React, { Component } from "react";
 import { SafeAreaView, StatusBar, StyleSheet, Text, View } from "react-native";
 
-import Button from "./App/components/Button";
-import Row from "./App/components/Row";
-import calculator, { initialState } from "./App/function/calculator";
+import Button from "./src/components/Button";
+import Row from "./src/components/Row";
+import calculator, { initialState } from "./src/function/calculator";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#202020",
-    justifyContent: "flex-end"
+    justifyContent: "flex-end",
   },
   value: {
     color: "#fff",
     fontSize: 50,
     textAlign: "right",
     marginRight: 20,
-    marginBottom: 10
-  }
+    marginBottom: 10,
+  },
 });
 
-export default class App extends React.Component {
+class App extends Component {
   state = initialState;
 
-  handleTap = (type, value) => {
-    this.setState(state => calculator(type, value, state));
+  handleTap = (type: string, value: number | string) => {
+    this.setState((state) => calculator(type, value, state));
   };
 
   render() {
@@ -39,17 +39,17 @@ export default class App extends React.Component {
             <Button
               text="Clear"
               theme="secondary"
-              onPress={() => this.handleTap("clear")}
+              onPress={() => this.handleTap("clear", 0)}
             />
             <Button
               text="+/-"
               theme="secondary"
-              onPress={() => this.handleTap("posneg")}
+              onPress={() => this.handleTap("posneg", 0)}
             />
             <Button
               text="%"
               theme="secondary"
-              onPress={() => this.handleTap("percentage")}
+              onPress={() => this.handleTap("percentage", 0)}
             />
             <Button
               text="/"
@@ -101,7 +101,7 @@ export default class App extends React.Component {
             <Button
               text="="
               theme="secondary"
-              onPress={() => this.handleTap("equal")}
+              onPress={() => this.handleTap("equal", 0)}
             />
           </Row>
         </SafeAreaView>
@@ -109,3 +109,5 @@ export default class App extends React.Component {
     );
   }
 }
+
+export default App;

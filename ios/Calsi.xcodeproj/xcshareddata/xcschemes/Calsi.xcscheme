@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "QuickCalc.app"
-               BlueprintName = "QuickCalc"
-               ReferencedContainer = "container:QuickCalc.xcodeproj">
+               BuildableName = "Calsi.app"
+               BlueprintName = "Calsi"
+               ReferencedContainer = "container:Calsi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "QuickCalcTests.xctest"
-               BlueprintName = "QuickCalcTests"
-               ReferencedContainer = "container:QuickCalc.xcodeproj">
+               BuildableName = "CalsiTests.xctest"
+               BlueprintName = "CalsiTests"
+               ReferencedContainer = "container:Calsi.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "QuickCalc.app"
-            BlueprintName = "QuickCalc"
-            ReferencedContainer = "container:QuickCalc.xcodeproj">
+            BuildableName = "Calsi.app"
+            BlueprintName = "Calsi"
+            ReferencedContainer = "container:Calsi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "QuickCalc.app"
-            BlueprintName = "QuickCalc"
-            ReferencedContainer = "container:QuickCalc.xcodeproj">
+            BuildableName = "Calsi.app"
+            BlueprintName = "Calsi"
+            ReferencedContainer = "container:Calsi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

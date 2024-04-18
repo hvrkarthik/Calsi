@@ -1,7 +1,6 @@
-Calsi
-A simple calculator built with the React Native CLI.
+# Calsi
 
-Installation
-You can download Calsi directly from the Google Play Store and install it on your android device smartphone/Tablet.
+## Installation
+You can download Calsi directly from the Google Play Store and install it on your smartphone.
 
-<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="80">
+[Google Play Store](https://play.google.com/store/apps/details?id=com.calsi&pcampaignid=web_share)

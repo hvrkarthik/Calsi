@@ -2,7 +2,7 @@ import React, { FC, useState } from 'react';
 import { SafeAreaView, StatusBar, StyleSheet, Text, View, Dimensions } from 'react-native';
 import Button from './src/components/Button';
 import Row from './src/components/Row';
-import calculator, { CalculatorState, initialState } from './src/function/Calculator';
+import calculator, { CalculatorState, initialState } from './src/function/calculator';
 
 const App: FC = () => {
   const [state, setState] = useState<CalculatorState>(initialState);
